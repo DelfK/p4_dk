@@ -325,17 +325,33 @@ a:hover {
 .nav > li {
     float: left;
     margin-top: 4px;
-    font-size: 16px;
+    font-size: 17px;
+    text-transform: uppercase;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
     text-align: inherit;
 }
 
-.nav > li a:hover,
+.nav > li a:hover {
+    background: transparent;
+    color: #F3976C !important;
+    text-decoration: underline;
+}
+
 .nav > li a:focus {
     background: transparent;
+    
 }
+
+.current_page{
+    font-weight: 700;
+    color: #F3976C !important;
+}
+
+
+
+
 
 .navbar-toggle {
     margin: 10px 10px 0 0;
@@ -659,6 +675,10 @@ a {
     max-width: 1000px;
 }
 
+.section-heading{
+    font-size:22px;
+}
+
 .hero-bloc-text {
     font-size: 38px;
 }
@@ -678,7 +698,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
