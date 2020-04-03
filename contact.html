@@ -84,27 +84,28 @@
 					<h2 class="mg-md">Nous contacter</h2>
 					<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 						<div class="form-group">
-							<label>
-								Nom
+							<label for="name">
+								Nom (requis)
 							</label>
-							<input id="name" class="form-control" required />
+							<input type="text" id="name" class="form-control" required aria-required="true"/>
 						</div>
 						<div class="form-group">
-							<label>
-								Adresse email
+							<label for="email">
+								Adresse email (requis)
 							</label>
-							<input id="email" class="form-control" type="email" required />
+							<input type="email" id="email" class="form-control" required aria-required="true"/>
 						</div>
 						<div class="form-group">
-							<label>
-								Comment nous avez-vous connu ?
+							<label for="connaitre">
+								Comment nous avez-vous connu ? (requis)
 							</label>
-							<input class="form-control" type="email" required id="input_504" />
+							<input type="text" class="form-control"  required id="connaitre" aria-required="true" />
 						</div>
 						<div class="form-group">
-							<label>
-								Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-							</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+							<label for="message">
+								Brief de votre projet - ajoutez autant de détails que nécessaire (requis)<br>
+							</label>
+							<textarea id="message" class="form-control" rows="4" cols="50" required aria-required="true"></textarea>
 						</div> 
 						<input class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit" value="Envoyer">
 							
@@ -139,25 +140,25 @@
 				<div class="row row-no-gutters social">
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-twitter icon-md"></span></a>
+							<a class="social" href="index.html"><span class="fa fa-twitter icon-md"><span class="visuallyHidden">vers notre compte twitter</span></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-facebook icon-md"></span></a>
+							<a class="social" href="index.html"><span class="fa fa-facebook icon-md"><span class="visuallyHidden">vers notre page facebook</span></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-dribbble icon-md"></span></a>
+							<a class="social" href="index.html"><span class="fa fa-dribbble icon-md"><span class="visuallyHidden">vers notre page dribbble</span></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-instagram icon-md"></span></a>
+							<a class="social" href="index.html"><span class="fa fa-instagram icon-md"><span class="visuallyHidden">vers notre page instagram</span></span></a>
 						</div>
 					</div>
-				</div>
+				</div>	
 			</div>
 		</div>
 	</div>
