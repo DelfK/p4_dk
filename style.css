@@ -610,6 +610,7 @@ a[data-lightbox]:hover img {
     left: 15px;
     right: 15px;
     bottom: 5px;
+    text-align:center;
 }
 
 .close-lightbox {
@@ -683,7 +684,6 @@ a {
 label{
     font-size: 16px;
 }
-)
 
 .container {
     max-width: 1000px;
@@ -746,6 +746,10 @@ footer{
 footer .fa:hover{
     color: #FFFFFF !important;
 }
+
+ .fa-chevron-left, .fa-chevron-right{
+    color: #FFFFFF !important;
+ }
 
 h2 {
     font-size: 22px;
@@ -869,11 +873,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-image: url("img/la-chouette-agence-banniere-min.jpg");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation-min.jpg");
 }
 
 @media (max-width: 1024px) {
